@@ -1,0 +1,104 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.app-container {
+  min-height: 100vh;
+  padding-bottom: 30px;
+  background-color: #152850;
+}
+.responsive-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  height: 60vh;
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 80px;
+}
+.singer-name {
+  font-family: 'Roboto';
+  font-size: 45px;
+  font-weight: 500;
+  color: #ffffff;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.singer-text {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 400;
+  color: #ffffff;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.music-container {
+  background-color: #152850;
+  height: 80vh;
+  padding-left: 70px;
+  padding-right: 70px;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.music-heading {
+  font-family: 'Roboto';
+  font-size: 35px;
+  font-weight: 600;
+  color: #ffffff;
+}
+.input-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  background-color: transparent;
+  border: 1px solid hsl(213, 27%, 84%);
+  border-radius: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 8px;
+}
+.input-ele {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 15px;
+  margin-left: 15px;
+  width: 100%;
+  color: #cbd5e1;
+}
+.search-button {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+.music-play-list {
+  margin-left: 0px;
+  padding-left: 0px;
+  height: 65vh;
+  overflow-y: scroll;
+}
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.not-found {
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 500;
+  color: #ffffff;
+  margin-top: 200px;
+}
